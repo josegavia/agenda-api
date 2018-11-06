@@ -1,5 +1,5 @@
 
-# Agenda APP
+# Agenda API
 
 ## Aplicación LoopBack
 * Persons
