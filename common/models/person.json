@@ -1,0 +1,37 @@
+{
+    "name": "Person",
+    "plural": "persons",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "lastName": {
+            "type": "string",
+            "required": true
+        },
+        "email": {
+            "type": "string",
+            "required": true
+        },
+        "phone": {
+            "type": "string",
+            "default": "000000",
+            "required": false
+        },
+        "avatar": {
+            "type": "string",
+            "default": "https://picsum.photos/g/200/300",
+            "required": false
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}
